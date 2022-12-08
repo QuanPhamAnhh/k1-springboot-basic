@@ -1,6 +1,11 @@
-package com.nbstech.spring.basic.movierecommendersystem.Lesson2;
+package com.nbstech.spring.basic.movierecommendersystem.Lesson3;
 
-public class ContentBasedFilter implements MovieFilter{
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+//@Qualifier("CBR")
+public class ContentBasedFilter implements MovieFilter {
     public String[] getRecommendations(String movie) {
 
         //implement logic of content based filter

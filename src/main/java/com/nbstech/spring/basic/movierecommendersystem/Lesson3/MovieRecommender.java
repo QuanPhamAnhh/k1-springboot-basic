@@ -1,12 +1,13 @@
-package com.nbstech.spring.basic.movierecommendersystem.Lesson2;
+package com.nbstech.spring.basic.movierecommendersystem.Lesson3;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class MovieRecommender {
+    //@Autowired
     MovieFilter movieFilter;
 
-    public MovieRecommender (MovieFilter movieFilter){
-        super();
-        this.movieFilter=movieFilter;
-    }
     public String [] recommendMovies (String movie) {
 
 
