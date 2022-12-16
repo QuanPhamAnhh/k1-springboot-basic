@@ -1,6 +1,5 @@
-package com.nbstech.spring.basic.movierecommendersystem.Lesson3;
+package com.nbstech.spring.basic.movierecommendersystem.ExternalProperty;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component

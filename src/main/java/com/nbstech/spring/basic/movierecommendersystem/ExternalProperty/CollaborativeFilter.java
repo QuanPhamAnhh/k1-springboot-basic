@@ -1,4 +1,4 @@
-package com.nbstech.spring.basic.movierecommendersystem.Lesson3;
+package com.nbstech.spring.basic.movierecommendersystem.ExternalProperty;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
